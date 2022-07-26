@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1a9349fa-8b07-4eee-bdc7-056b49243fdb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImageFilteringBM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unipv/sistemioperativi/barsantimilani/imagefilteringbm/IFBM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unipv/sistemioperativi/barsantimilani/imagefilteringbm/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unipv/sistemioperativi/barsantimilani/imagefilteringbm/model/PixelGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unipv/sistemioperativi/barsantimilani/imagefilteringbm/model/filter/ImageFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unipv/sistemioperativi/barsantimilani/imagefilteringbm/model/filter/ImageFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unipv/sistemioperativi/barsantimilani/imagefilteringbm/model/pixel/Pixel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unipv/sistemioperativi/barsantimilani/imagefilteringbm/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unipv/sistemioperativi/barsantimilani/imagefilteringbm/view/components/FilterButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unipv/sistemioperativi/barsantimilani/imagefilteringbm/view/frame/IFBMFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unipv/sistemioperativi/barsantimilani/imagefilteringbm/view/panel/IFBMMainPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unipv/sistemioperativi/barsantimilani/imagefilteringbm/view/panel/secondary/ChooserPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/unipv/sistemioperativi/barsantimilani/imagefilteringbm/view/panel/secondary/ImageViewerPanel.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CRe2FVjm5f3mlp003IwUMnAIpV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.IFBM">
+    <configuration name="IFBM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.IFBM" />
+      <module name="ImageFilteringBM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IFBMFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.view.frame.IFBMFrame" />
+      <module name="ImageFilteringBM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.view.frame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IFBM" />
+        <item itemvalue="Application.IFBMFrame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a9349fa-8b07-4eee-bdc7-056b49243fdb" name="Changes" comment="" />
+      <created>1658769615963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658769615963</updated>
+      <workItem from="1658769617376" duration="3863000" />
+      <workItem from="1658776409517" duration="915000" />
+      <workItem from="1658779267909" duration="11625000" />
+      <workItem from="1658823133626" duration="23340000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
