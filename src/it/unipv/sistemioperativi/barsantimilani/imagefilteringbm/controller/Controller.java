@@ -1,17 +1,17 @@
 package it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.controller;
 
-import it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.model.PixelGrid;
+import it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.model.pixel.PixelGrid;
 import it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.view.components.FilterButton;
 import it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.view.frame.IFBMFrame;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
+import javax.swing.filechooser.FileFilter;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 /**
  * The Controller class of the MVC pattern for this project.
@@ -41,6 +41,9 @@ public class Controller {
                     public void actionPerformed(ActionEvent e) {
 
                         JFileChooser fileChooser = new JFileChooser();
+                        fileChooser.setFileFilter(
+                                new FileNameExtensionFilter("Image", "png", "jpg", "jpeg")
+                        );
 
                         if(fileChooser.showOpenDialog(null) == JFileChooser.APPROVE_OPTION) {
 
@@ -50,8 +53,8 @@ public class Controller {
                             } catch (IOException ex) {
                                 ex.printStackTrace();
                             }
-                            view.getMainPanel().getImageViewerPanel().setImage(newImage);
                             assert newImage != null;
+                            view.getMainPanel().getImageViewerPanel().setImage(newImage);
                             model = new PixelGrid(newImage);
 
                         }

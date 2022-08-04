@@ -1,7 +1,7 @@
 package it.unipv.sistemioperativi.barsantimilani.imagefilteringbm;
 
 import it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.controller.Controller;
-import it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.model.PixelGrid;
+import it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.model.pixel.PixelGrid;
 import it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.view.frame.IFBMFrame;
 
 public class IFBM {

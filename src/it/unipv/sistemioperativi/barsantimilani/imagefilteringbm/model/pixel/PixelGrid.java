@@ -1,4 +1,4 @@
-package it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.model;
+package it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.model.pixel;
 
 import it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.model.filter.ImageFilter;
 import it.unipv.sistemioperativi.barsantimilani.imagefilteringbm.model.pixel.Pixel;
@@ -31,7 +31,6 @@ public class PixelGrid {
         for(int i = 0; i < height; i++){
 
             int rowIndex = i;
-
             workerThreads[i] = new Thread() {
                 @Override
                 public void run() {
@@ -60,14 +59,14 @@ public class PixelGrid {
 
     /**
      * Instances every Pixel object from a specific row of a BufferedImage.
-     * @param index the row to read.
+     * @param rowIndex the row to read.
      * @param image the image to refer to.
      */
-    private void readRow(int index, BufferedImage image){
+    private void readRow(int rowIndex, BufferedImage image){
 
         for(int i = 0; i < width; i++){
 
-            pixels[i][index] = new Pixel(image.getRGB(i, index));
+            pixels[i][rowIndex] = new Pixel(image.getRGB(i, rowIndex));
 
         }
 
@@ -113,14 +112,14 @@ public class PixelGrid {
 
     /**
      * Writes every Pixel object to a specific row of a BufferedImage.
-     * @param index the row to write.
+     * @param rowIndex the row to write.
      * @param image the image to refer to.
      */
-    private void writeRow(int index, BufferedImage image) {
+    private void writeRow(int rowIndex, BufferedImage image) {
 
         for(int i = 0; i < width; i++){
 
-            image.setRGB(i, index, pixels[i][index].getRGB());
+            image.setRGB(i, rowIndex, pixels[i][rowIndex].getRGB());
 
         }
 
@@ -164,14 +163,14 @@ public class PixelGrid {
 
     /**
      * Applies given filter to specific row of this PixelGrid
-     * @param index the index of the row.
+     * @param rowIndex the index of the row.
      * @param filter the filter to apply.
      */
-    private void applyFilterToRow(int index, ImageFilter filter){
+    private void applyFilterToRow(int rowIndex, ImageFilter filter){
 
         for(int i = 0; i < width; i++){
 
-            pixels[i][index].applyFilter(filter);
+            pixels[i][rowIndex].applyFilter(filter);
 
         }
 
